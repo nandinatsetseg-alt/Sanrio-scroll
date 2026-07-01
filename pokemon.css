@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.nuur {
+  width: 150vh;
+  height: 100vh;
+  background-color: lightcyan;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.scroll-container {
+  width: 580px;
+  height: 520px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: scroll;
+}
+.cardcontainer {
+  width: 1100px;
+  height: 510px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  box-shadow:
+    5px 5px 20px #d3d3d3,
+    -5px -5px 20px #d3d3d3;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: skyblue;
+  border-radius: 50%;
+  top: -250px;
+  left: -50px;
+}
+.hp {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  border-radius: 20px;
+  background-color: #e5e4e2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.cinnamon {
+  width: 500x;
+  height: 200px;
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+}
+.text {
+  margin-top: 260px;
+  font-size: 28px;
+  font-weight: 650;
+}
+.badge {
+  background-color: skyblue;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  top: 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  position: absolute;
+  top: 380px;
+}
+.attack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.defense {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.speed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.attack-too {
+  font-weight: 700;
+}
+.defense-too {
+  font-weight: 700;
+}
+.speed-too {
+  font-weight: 700;
+}
+.kuromi {
+  width: 190px;
+  height: 200px;
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+}
+.kitty {
+  width: 190px;
+  height: 200px;
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+}
